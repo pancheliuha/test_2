@@ -1,0 +1,68 @@
+const tests = [
+    {
+        id: 2,
+        number: '02',
+        text: 'Ваша стать?',
+        trueBtnText: 'Чоловік',
+        falseBtnText: 'Жінка',
+        inverseBtns: false,
+    },
+    {
+        id: 3,
+        number: '03',
+        text: ' Ви палите?  ',
+        trueBtnText: 'Так',
+        falseBtnText: 'Ні',
+        inverseBtns: false,
+    },
+    {
+        id: 4,
+        number: '04',
+        text: 'Вживаєте алкоголь?',
+        trueBtnText: 'Так',
+        falseBtnText: 'Ні',
+        inverseBtns: false,
+    },
+    {
+        id: 5,
+        number: '05',
+        text: ' Ви маєте надмірну вагу (індекс маси тіла 25 чи більше)?',
+        trueBtnText: 'Так',
+        falseBtnText: 'Ні',
+        inverseBtns: false,
+    },
+    {
+        id: 6,
+        number: '06',
+        text: ' Ви регулярно займаєтесь спортом? ',
+        trueBtnText: 'Ні',
+        falseBtnText: 'Так',
+        inverseBtns: true,
+    },
+    {
+        id: 7,
+        number: '07',
+        text: 'Ви дотримуєтесь здорового харчування? ',
+        trueBtnText: 'Ні',
+        falseBtnText: 'Так',
+        inverseBtns: true,
+    },
+    {
+        id: 8,
+        number: '08',
+        text: 'Ви хворієте на цукровий діабет? ',
+        trueBtnText: 'Так',
+        falseBtnText: 'Ні',
+        inverseBtns: false,
+    },
+    {
+        id: 9,
+        number: '09',
+        text: 'Ви маєте підвищений артеріальний тиск (140 мм рт.ст. чи вище)?',
+        trueBtnText: 'Так',
+        falseBtnText: 'Ні',
+        inverseBtns: false,
+    },
+];
+
+export default tests;
