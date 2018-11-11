@@ -6,7 +6,7 @@
 			судинних захворювань?
         </p>
         <p class="text-middle text-blue">
-            Калькулятор ризиків*
+            Калькулятор ризиків<StartTooltip tooltip-id="start_tooltip"></StartTooltip>
         </p>
 
         <p class="text-sm">
@@ -34,13 +34,18 @@
 </template>
 
 <script>
-    /* eslint-disable */
+
+    import StartTooltip from './StartTooltip'
+
     export default {
         name: 'StartComponent',
         data() {
             return {
                 disabledBtn: false,
             }
+        },
+        components: {
+            StartTooltip
         },
         methods: {
             goToFirstStep() {
